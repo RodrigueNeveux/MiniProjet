@@ -1,0 +1,21 @@
+/** Style pour le conteneur principal **/
+.mainPanel {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 600px;
+    font-family: Arial, sans-serif;
+}
+
+/** Style des messages d'erreur **/
+.errorLabel {
+    color: red;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+/** Style des titres **/
+h2 {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}

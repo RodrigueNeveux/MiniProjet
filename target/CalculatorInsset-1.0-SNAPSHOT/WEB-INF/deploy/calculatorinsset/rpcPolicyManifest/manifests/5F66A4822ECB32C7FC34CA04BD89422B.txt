@@ -1,0 +1,2 @@
+serviceClass: com.calculatorinsset.shared.ConversionService
+path: AEE9BFCCD57459DDA6D16E180DE90676.gwt.rpc
