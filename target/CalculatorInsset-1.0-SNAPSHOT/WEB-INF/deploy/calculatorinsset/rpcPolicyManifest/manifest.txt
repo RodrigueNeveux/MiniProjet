@@ -1,3 +1,0 @@
-# Module calculatorinsset
-# RPC service class, partial path of RPC policy file
-com.calculatorinsset.shared.ConversionService, AEE9BFCCD57459DDA6D16E180DE90676.gwt.rpc
