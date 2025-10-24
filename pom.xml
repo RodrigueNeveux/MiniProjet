@@ -9,6 +9,26 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
+<profiles>
+    <profile>
+        <id>devmode-vm</id>
+        <build>
+            <plugins>
+                <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>gwt-maven-plugin</artifactId>
+                    <configuration>
+<runTarget>index.html</runTarget>
+                        <hostedWebapp>${webappDirectory}</hostedWebapp>
+                        <module>com.calculatorinsset.CalculatorInsset</module>
+                        <bindAddress>0.0.0.0</bindAddress> 
+                        <extraJvmArgs>-Dgwt.args.clean</extraJvmArgs>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </build>
+    </profile>
+</profiles>
     <repositories>
         <repository>
             <id>central-https</id>
